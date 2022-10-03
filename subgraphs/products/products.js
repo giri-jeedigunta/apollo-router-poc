@@ -42,7 +42,7 @@ const resolvers = {
             return { size: "1", weight: 1 }
         },
         createdBy: (reference) => {
-            return { email: 'support@apollographql.com', totalProductsCreated: 1337 }
+            return { email: 'iam_inside_products@apollographql.com', totalProductsCreated: 1337 }
         },
         __resolveReference: (reference) => {
             if (reference.id) return products.find(p => p.id == reference.id);

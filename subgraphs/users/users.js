@@ -20,7 +20,7 @@ const { readFileSync } = require('fs');
 const port = process.env.APOLLO_PORT || 4000;
 
 const users = [
-    { email: 'support@apollographql.com', name: "Apollo Studio Support", totalProductsCreated: 4 }
+    { email: 'giri.jeedigunta@gmail.com', name: "Giri Jeedigunta", totalProductsCreated: 4 }
 ]
 
 const typeDefs = gql(readFileSync('./users.graphql', { encoding: 'utf-8' }));
